@@ -1,0 +1,78 @@
+body {
+    font-size: 1.25rem;
+}
+
+.intro-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #D1F8EF;
+    padding: 50px;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+h1 {
+    color: #3674B5;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: "Sacramento", cursive;
+}
+
+h2 {
+    color: #3674B5;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.profile-img {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+.skills {
+    margin-left: 50px;
+}
+
+.languages-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    border: 3px solid #3674B5;
+    border-radius: 20px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+}
+.pl-title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.end {
+    background-color: #D1F8EF;
+}
